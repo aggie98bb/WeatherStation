@@ -23,8 +23,8 @@
 
 //Define MQTT and Topics
 #define mqtt_server "172.31.11.103"
-#define mqtt_user "aggie98bb"
-#define mqtt_password "acdb1532"
+#define mqtt_user "mqttuser"
+#define mqtt_password "mqttpass"
 #define humidity_topic "sensor/humidity"
 #define temperature_topic "sensor/temperature"
 #define dewpoint_topic "sensor/dewpoint"
