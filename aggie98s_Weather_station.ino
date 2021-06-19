@@ -69,7 +69,7 @@ RTC_DATA_ATTR int bootCount = 0;
 
 const char* serverName = "http://rtupdate.wunderground.com";  // Wunderground Update Server
 const char* ntpServer = "us.pool.ntp.org";
-const long  gmtOffset_sec = -21600;   //-6hrs gmt offset
+const long  gmtOffset_sec = -6 * 3600;   //-6hrs gmt offset
 const int   daylightOffset_sec = 3600;
 char TIMESTAMP;
 
